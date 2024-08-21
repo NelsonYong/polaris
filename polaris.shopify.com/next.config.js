@@ -149,6 +149,11 @@ const nextConfig = {
         destination: '/coming-soon/view-transitions',
         permanent: false,
       },
+      {
+        source: '/content/product-content',
+        destination: '/content/writing-principles',
+        permanent: true,
+      },
       ...whatsNew,
       ...actions,
       ...deprecated,
